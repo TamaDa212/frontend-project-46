@@ -7,14 +7,16 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c0078dcdf12489a7339c/test_coverage)](https://codeclimate.com/github/TamaDa212/frontend-project-46/test_coverage)
 
-Difference Generator — CLI Utility for Comparing Configuration Files
-Description
-Difference Generator is a powerful CLI utility that allows you to compare two configuration files and display the difference between them in various formats. It supports JSON and YAML formats and offers three output styles: stylish (default), plain, and json.
+# Вычислитель отличий
+Учебный проект. Сравнивает два файла в формате **json** или **yaml** и выводит разницу между ними в различных форматах.
+``` bash
+$ gendiff -h
+Usage: gendiff [options] <filepath1> <filepath2>
 
-Installation
-To install locally, follow these steps:
+Compares two configuration files and shows a difference.
 
-git clone https://github.com/yourusername/fullstack-javascript-project-46.git
-cd fullstack-javascript-project-46
-npm install
-npm link
+Options:
+  -V, --version        output the version number
+  -f, --format [type]  output format (choices: "stylish", "plain", "json")
+  -h, --help           display help for command
+```
